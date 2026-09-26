@@ -677,7 +677,7 @@
                 if (salesEl) salesEl.textContent = salesTotal.toFixed(2) + ' د.ج';
                 if (purchasesEl) purchasesEl.textContent = purchasesTotal.toFixed(2) + ' د.ج';
                 if (expensesEl) expensesEl.textContent = expensesTotal.toFixed(2) + ' د.ج';
-                const profit = salesTotal - (purchasesTotal + expensesTotal);
+                const profit = salesTotal - expensesTotal);
                 if (profitEl) profitEl.textContent = profit.toFixed(2) + ' د.ج';
             }
 
